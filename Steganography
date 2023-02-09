@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="AWSCap.css" />
+  </head>
+  <body>
+    <main id="main">
+        <h1 id="title">AWS Capstone Project</h1>
+        <h3>Deploy a Highly Available WordPress Application</h3>
+      <figure id="img-div">
+        <img
+          id="image"
+          src="Capstone.jpg"
+          alt="Project Architecture"
+        />
+        
+      </figure>
+      <section id="project-info">
+        <h3 id="headline">Project Details:</h3>
+          <p>
+          I will create a highly available (HA), scalable and fault-tolerant deployment of the WordPress application. I will deploy the WordPress application in such a way that the application server, load balancer and database will scale independently of one another. I will also deploy the application's components like the web server and database into two availability zones to distribute it and guard against failure of the anyone availability zone. The WordPress application will be deployed in a stateless fashion so that I can add or remove web application servers in response to the requests flowing into the system. Finally, I will create a CloudFront distribution as CDN and change the configuration of WordPress.
+        </p>
+           
+        
+        
+
+          
+          
+        <ul>
+          <li><strong>Step 1</strong> -  Create WordPress AMI (Amazon Machine Image)</li>
+          <li>
+            <strong>Step 2</strong> - Create Application Load Balancer
+          </li>
+          <li>
+            <strong>Step 3</strong> - Create Auto Scaling Group
+          </li>
+          <li>
+            <strong>Step 4</strong> - Create CloudFront Distribution
+          </li>
+        </ul>
+       <img
+          id="image1"
+          src="FinalWordpresssitepage.png"
+          alt="Project Site"
+          height:"300px";
+             width:"300px";
+        />
+        <h3>
+         REFERENCES:
+          <ul>
+              <li><a href="https://aws.amazon.com/getting-started/hands-on/deploy-wordpress-with-amazon-rds/?nc1=h_ls">Deploy wordpress with Amazon RDS</a></li>
+             <li><a href="https://github.com/aws-samples/aws-refarch-wordpress">Hosting WordPress on AWS</a></li>
+             <li><a href="https://aws.amazon.com/blogs/startups/how-to-accelerate-your-wordpress-site-with-amazon-cloudfront/">How to Accelerate Your WordPress Site with Amazon CloudFront</a></li>
+               <li><a href="https://d1.awsstatic.com/whitepapers/wordpress-best-practices-on-aws.pdf">Best Practices for WordPress on AWS</a></li>
+              <li><a href="https://www.lightsailworkshop.com/introduction.html">Deploy and Scale a LAMP stack application on Amazon Lightsail</a></li>
+              
+              
+            </ul>
+        </h3>
+      </section>
+    </main>
+  </body>
+</html>
